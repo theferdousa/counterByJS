@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: #f2f4f4;
+}
+
+h1,
+h2,
+button {
+  color: #17202a;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  margin-top: 15%;
+  font-family: "Noto Serif", serif;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 3.5rem;
+  padding: 1rem 0;
+}
+
+.btn {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 1.6rem;
+  border-radius: 30px;
+  margin: 0 6px ;
+  transition: 0.5s;
+  border: 2px solid #17202a;
+  background: transparent;
+}
+
+.btn:hover{
+    background: #17202a;
+    color: white;
+}
